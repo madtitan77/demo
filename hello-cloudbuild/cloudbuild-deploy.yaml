@@ -23,7 +23,7 @@ steps:
 
   - id: deploy
     dir: hello-cloudbuild
-    name: cloudnatived/helm-cloudbuilder
+    name: alpine/helm:3.2.3
     env:
       - KUBECONFIG=/workspace/.kube/config
     args:
