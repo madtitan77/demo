@@ -31,7 +31,9 @@ steps:
     - CLOUDSDK_CONTAINER_CLUSTER=${_CLOUDSDK_CONTAINER_CLUSTER}
     - KUBECONFIG=/workspace/.kube/config
     args:
-       - create namespace ${TAG_NAME}-demo
+       - create 
+       - namespace 
+       - ${TAG_NAME}-demo
 
 
 
